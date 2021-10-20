@@ -256,6 +256,12 @@ ZADANIE4_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug
 ZADANIE4_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/LAB3
 
 //Value Computed by CMake
+ZADANIE5_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3
+
+//Value Computed by CMake
+ZADANIE5_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/LAB3
+
+//Value Computed by CMake
 allocation_basics_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/allocation_basics
 
 //Value Computed by CMake

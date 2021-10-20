@@ -13,7 +13,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LAB3/ZADANIE4/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LAB3/ZADANIE5/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LAB3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LAB3/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
@@ -75,11 +75,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Kacper\CLionProjects\JiPP2\LAB3" />
       <recent name="C:\Users\Kacper\CLionProjects\JiPP2\simpleCalc" />
       <recent name="C:\Users\Kacper\CLionProjects\JiPP2\simpleCalc\include" />
       <recent name="C:\Users\Kacper\CLionProjects\JiPP2\simpleCalc\src" />
       <recent name="C:\Users\Kacper\CLionProjects\JiPP2" />
-      <recent name="C:\Users\Kacper\CLionProjects\JiPP2\allocation_basics" />
     </key>
   </component>
   <component name="RunManager" selected="CMake Application.main">
@@ -124,7 +124,7 @@
       <workItem from="1634109467156" duration="16320000" />
       <workItem from="1634136072603" duration="818000" />
       <workItem from="1634628065155" duration="2656000" />
-      <workItem from="1634732789195" duration="4868000" />
+      <workItem from="1634732789195" duration="5666000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1634024393156</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634737568576</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2 commit">
+      <created>1634739867869</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1634739867869</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
