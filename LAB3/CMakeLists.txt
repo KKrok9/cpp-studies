@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(ZADANIE6)
+project(ZADANIE7)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(main ZADANIE6/main.cpp)
+add_executable(main ZADANIE7/main.cpp)
