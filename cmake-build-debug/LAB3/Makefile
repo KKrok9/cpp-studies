@@ -133,35 +133,35 @@ main\fast:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
 .PHONY : main\fast
 
-ZADANIE7\main.obj: ZADANIE7\main.cpp.obj
-.PHONY : ZADANIE7\main.obj
+ZADANIE9\main.obj: ZADANIE9\main.cpp.obj
+.PHONY : ZADANIE9\main.obj
 
 # target to build an object file
-ZADANIE7\main.cpp.obj:
+ZADANIE9\main.cpp.obj:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE7\main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE9\main.cpp.obj
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : ZADANIE7\main.cpp.obj
+.PHONY : ZADANIE9\main.cpp.obj
 
-ZADANIE7\main.i: ZADANIE7\main.cpp.i
-.PHONY : ZADANIE7\main.i
+ZADANIE9\main.i: ZADANIE9\main.cpp.i
+.PHONY : ZADANIE9\main.i
 
 # target to preprocess a source file
-ZADANIE7\main.cpp.i:
+ZADANIE9\main.cpp.i:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE7\main.cpp.i
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE9\main.cpp.i
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : ZADANIE7\main.cpp.i
+.PHONY : ZADANIE9\main.cpp.i
 
-ZADANIE7\main.s: ZADANIE7\main.cpp.s
-.PHONY : ZADANIE7\main.s
+ZADANIE9\main.s: ZADANIE9\main.cpp.s
+.PHONY : ZADANIE9\main.s
 
 # target to generate assembly for a file
-ZADANIE7\main.cpp.s:
+ZADANIE9\main.cpp.s:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE7\main.cpp.s
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE9\main.cpp.s
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : ZADANIE7\main.cpp.s
+.PHONY : ZADANIE9\main.cpp.s
 
 # Help Target
 help:
@@ -172,9 +172,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
-	@echo ... ZADANIE7/main.obj
-	@echo ... ZADANIE7/main.i
-	@echo ... ZADANIE7/main.s
+	@echo ... ZADANIE9/main.obj
+	@echo ... ZADANIE9/main.i
+	@echo ... ZADANIE9/main.s
 .PHONY : help
 
 
