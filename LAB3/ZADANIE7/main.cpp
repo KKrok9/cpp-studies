@@ -22,32 +22,31 @@ void insert_sort(int* tab)
 
     }
 }
+void wypisywanie(int *tab)
+{
+for(int i = 0; i <=2 ; i++)
+{
+cout << tab[i] <<endl; // wypisywanie
+}
+}
+
 int main()
 {
-    int *wsk_a = &a;
+    int *wsk_a = &a; // tworzenie wskaznikow
     int *wsk_b = &b;
     int *wsk_c = &c;
-
     int* tab = new int [3]; // alokacja
 
     tab[0] = *wsk_a; // przypisanie wartosci pod wskaznikiem do elementow tablicy
     tab[1] = *wsk_b;
     tab[2] = *wsk_c;
-    cout << "Przed sortowaniem : "<< endl;
 
-for(int i = 0; i <=2 ; i++)
-{
-    cout << tab[i] <<endl; // wypisywanie
-}
+    cout << "Przed sortowaniem : "<< endl;
+    wypisywanie(tab);
 
     cout << "Po sortowaniu : "<< endl ;
-
     insert_sort(tab); // insertion
-
-    for(int i = 0; i <=2 ; i++)
-    {
-        cout << tab[i] <<endl;// wypisywanie 2
-    }
+    wypisywanie(tab);
 
     delete [] tab;
 return 0;
