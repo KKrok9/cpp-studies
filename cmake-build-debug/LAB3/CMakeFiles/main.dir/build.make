@@ -55,39 +55,39 @@ include LAB3\CMakeFiles\main.dir\progress.make
 # Include the compile flags for this target's objects.
 include LAB3\CMakeFiles\main.dir\flags.make
 
-LAB3\CMakeFiles\main.dir\ZADANIE5\main.cpp.obj: LAB3\CMakeFiles\main.dir\flags.make
-LAB3\CMakeFiles\main.dir\ZADANIE5\main.cpp.obj: ..\LAB3\ZADANIE5\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LAB3/CMakeFiles/main.dir/ZADANIE5/main.cpp.obj"
+LAB3\CMakeFiles\main.dir\ZADANIE6\main.cpp.obj: LAB3\CMakeFiles\main.dir\flags.make
+LAB3\CMakeFiles\main.dir\ZADANIE6\main.cpp.obj: ..\LAB3\ZADANIE6\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object LAB3/CMakeFiles/main.dir/ZADANIE6/main.cpp.obj"
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\main.dir\ZADANIE5\main.cpp.obj /FdCMakeFiles\main.dir\ /FS -c C:\Users\Kacper\CLionProjects\JiPP2\LAB3\ZADANIE5\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\main.dir\ZADANIE6\main.cpp.obj /FdCMakeFiles\main.dir\ /FS -c C:\Users\Kacper\CLionProjects\JiPP2\LAB3\ZADANIE6\main.cpp
 <<
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
 
-LAB3\CMakeFiles\main.dir\ZADANIE5\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/ZADANIE5/main.cpp.i"
+LAB3\CMakeFiles\main.dir\ZADANIE6\main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/main.dir/ZADANIE6/main.cpp.i"
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\main.dir\ZADANIE5\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\CLionProjects\JiPP2\LAB3\ZADANIE5\main.cpp
+	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe > CMakeFiles\main.dir\ZADANIE6\main.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Kacper\CLionProjects\JiPP2\LAB3\ZADANIE6\main.cpp
 <<
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
 
-LAB3\CMakeFiles\main.dir\ZADANIE5\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/ZADANIE5/main.cpp.s"
+LAB3\CMakeFiles\main.dir\ZADANIE6\main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/main.dir/ZADANIE6/main.cpp.s"
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
 	C:\PROGRA~2\MICROS~4\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\main.dir\ZADANIE5\main.cpp.s /c C:\Users\Kacper\CLionProjects\JiPP2\LAB3\ZADANIE5\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\main.dir\ZADANIE6\main.cpp.s /c C:\Users\Kacper\CLionProjects\JiPP2\LAB3\ZADANIE6\main.cpp
 <<
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
 
 # Object files for target main
 main_OBJECTS = \
-"CMakeFiles\main.dir\ZADANIE5\main.cpp.obj"
+"CMakeFiles\main.dir\ZADANIE6\main.cpp.obj"
 
 # External object files for target main
 main_EXTERNAL_OBJECTS =
 
-LAB3\main.exe: LAB3\CMakeFiles\main.dir\ZADANIE5\main.cpp.obj
+LAB3\main.exe: LAB3\CMakeFiles\main.dir\ZADANIE6\main.cpp.obj
 LAB3\main.exe: LAB3\CMakeFiles\main.dir\build.make
 LAB3\main.exe: LAB3\CMakeFiles\main.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable main.exe"
