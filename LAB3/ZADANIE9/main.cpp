@@ -30,7 +30,7 @@ cin >> b;
 
 dzielenie(a,b);
 
-
+return 0;
 }
 
 
