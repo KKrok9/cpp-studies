@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Kacper/CLionProjects/JiPP2/LAB3/ZADANIE1/main.cpp
+C:/Users/Kacper/CLionProjects/JiPP2/LAB3/ZADANIE3/main.cpp
 iostream
+-
+cstdlib
+-
+time.h
 -
 
