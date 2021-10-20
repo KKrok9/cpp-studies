@@ -1,0 +1,2 @@
+#pragma code_page(65001)
+1 /* CREATEPROCESS_MANIFEST_RESOURCE_ID */ 24 /* RT_MANIFEST */ "C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/simpleCalc/CMakeFiles/main.dir/embed.manifest"
