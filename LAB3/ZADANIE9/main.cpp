@@ -1,37 +1,37 @@
 #include <iostream>
-using namespace std ;
+using namespace std;
+
 int a, b;
-void dzielenie(int a , int b)
-{
-    if(a<b)
+
+int dzielenie(int a, int b) {
+
+    if (a % b != 0)
     {
-        cout << "Liczba a musi byc wieksza niz b "<< endl;
+        throw "Nieprawidlowe dzielenie";
     }
 
-    else if(a%b != 0)
+    if (b == 0)
     {
-        cout << "Liczba a nie jest podzielna przez b";
+        throw "Dzielnik jest zerem";
     }
 
-    else
-    {
-        cout << "\nWynik dzielenia to :" << a/b<< endl;
-    }
-}
-int main()
-{
-cout << "               DZIELENIE LICZB NATURALNYCH "<< endl ;
-
-cout << "Podaj liczbe a :"<< endl;
-cin >> a;
-
-cout << "Podaj liczbe b :"<< endl;
-cin >> b;
-
-dzielenie(a,b);
-
-return 0;
+    return (a/b);
 }
 
+int main () {
+    cout << "Podaj liczbe a :";
+    cin >> a;
+    cout << "Podaj liczbe b :";
+    cin >> b;
+    try {
 
+        cout << "Wynik dzielenia to : " << dzielenie(a,b);
+    }
+    catch (const char* msg)
+    {
+        cout << msg;
+    }
+    cout << endl;
 
+    return 0;
+}
