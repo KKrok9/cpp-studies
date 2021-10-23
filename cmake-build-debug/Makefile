@@ -105,19 +105,6 @@ depend:
 	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
-.PHONY : main
-
-# fast build rule for target.
-main\fast:
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\build
-.PHONY : main\fast
-
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -126,7 +113,6 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main
 .PHONY : help
 
 

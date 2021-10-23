@@ -12,6 +12,13 @@ CMake Warning (dev) in CMakeLists.txt:
   line.
 This warning is for project developers.  Use -Wno-dev to suppress it.
 
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug
+CMake Error at CMakeLists.txt:3 (add_subdirectory):
+  The source directory
+
+    C:/Users/Kacper/CLionProjects/JiPP2/PROJEKT1
+
+  does not contain a CMakeLists.txt file.
+
+
+-- Configuring incomplete, errors occurred!
+See also "C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/CMakeFiles/CMakeOutput.log".

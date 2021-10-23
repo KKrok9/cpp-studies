@@ -52,57 +52,16 @@ CMAKE_BINARY_DIR = C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: LAB3\all
+all:
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: LAB3\preinstall
+preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: LAB3\clean
+clean:
 .PHONY : clean
-
-#=============================================================================
-# Directory level rules for directory LAB3
-
-# Recursive "all" directory target.
-LAB3\all: LAB3\CMakeFiles\main.dir\all
-.PHONY : LAB3\all
-
-# Recursive "preinstall" directory target.
-LAB3\preinstall:
-.PHONY : LAB3\preinstall
-
-# Recursive "clean" directory target.
-LAB3\clean: LAB3\CMakeFiles\main.dir\clean
-.PHONY : LAB3\clean
-
-#=============================================================================
-# Target rules for target LAB3/CMakeFiles/main.dir
-
-# All Build rule for target.
-LAB3\CMakeFiles\main.dir\all:
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\depend
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : LAB3\CMakeFiles\main.dir\all
-
-# Build rule for subdir invocation for target.
-LAB3\CMakeFiles\main.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
-.PHONY : LAB3\CMakeFiles\main.dir\rule
-
-# Convenience name for target.
-main: LAB3\CMakeFiles\main.dir\rule
-.PHONY : main
-
-# clean rule for target.
-LAB3\CMakeFiles\main.dir\clean:
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\clean
-.PHONY : LAB3\CMakeFiles\main.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
