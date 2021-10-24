@@ -1,3 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
 
-add_subdirectory(PROJEKT1)
+project(JIPP2)
+
+add_subdirectory(PROJEKT)
