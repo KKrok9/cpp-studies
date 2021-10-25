@@ -5,7 +5,7 @@ int rows1, columns1 ;
 int rows2,columns2;
 int i ,j , x; // var needed for some base operations like loops etc
 
-void editingSize(int rows1, int columns1, int x = 1)
+void editingSize(int &rows1, int &columns1, int x = 1)
 {
     // macierz 1
     cout << "Podaj ilosc wierszy macierzy "<< x <<endl;
@@ -32,7 +32,7 @@ void refillingMatrix(int **tab1, int rows1, int columns1)
         for(j=0 ; j < columns1 ; j++)
 
         {
-            cout << "["<< i << "]" << "[" << j << "]" << endl;
+            cout << "["<< i+1 << "]" << "[" << j+1 << "]" << endl;
             cin >> tab1[i][j];
         }
     }
@@ -44,9 +44,9 @@ void displayMatrix(int **tab1, int rows1, int columns1, int x = 1) {
     {
         for(j = 0 ; j < columns1 ; j++)
         {
-            cout << "["<< i << "]" << "[" << j << "]" << "=" << tab1[i][j] << endl;
+            cout <<" "<< tab1[i][j] ;
         }
-
+        cout << endl ;
     }
 
 
@@ -71,6 +71,7 @@ int main()
     displayMatrix(tab1,rows1,columns1,x=1);
     displayMatrix(tab2,rows2,columns2,x=2);
 
+    delete [] tab1;
+    delete [] tab2;
     return 0;
 }
-
