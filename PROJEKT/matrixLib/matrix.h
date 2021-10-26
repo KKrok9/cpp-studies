@@ -1,8 +1,2 @@
-//
-// Created by Kacper on 23.10.2021.
-//
 
-#ifndef MAIN_CPP_MATRIX_H
-#define MAIN_CPP_MATRIX_H
-
-#endif //MAIN_CPP_MATRIX_H
+double addMatrix(double **tab1, double **tab2, int rows1 , int columns1 , int rows2 , int columns2);

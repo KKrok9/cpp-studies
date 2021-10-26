@@ -8,9 +8,7 @@ set(CMAKE_DEPENDS_GENERATOR "NMake Makefiles")
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "../CMakeLists.txt"
-  "../PROJEKT/CMakeLists.txt"
-  "../PROJEKT/matrixApp/CMakeLists.txt"
-  "../PROJEKT/matrixLib/CMakeLists.txt"
+  "../LAB4/CMakeLists.txt"
   "CMakeFiles/3.20.2/CMakeCCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.20.2/CMakeRCCompiler.cmake"
@@ -46,13 +44,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "PROJEKT/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "PROJEKT/matrixLib/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "PROJEKT/matrixApp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LAB4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "PROJEKT/matrixLib/CMakeFiles/matrixLib.dir/DependInfo.cmake"
-  "PROJEKT/matrixApp/CMakeFiles/matrixApp.dir/DependInfo.cmake"
+  "LAB4/CMakeFiles/main.dir/DependInfo.cmake"
   )

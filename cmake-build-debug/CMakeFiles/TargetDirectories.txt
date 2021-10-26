@@ -1,10 +1,5 @@
 C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/CMakeFiles/edit_cache.dir
 C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/CMakeFiles/edit_cache.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/CMakeFiles/rebuild_cache.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/matrixLib/CMakeFiles/matrixLib.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/matrixLib/CMakeFiles/edit_cache.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/matrixLib/CMakeFiles/rebuild_cache.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/matrixApp/CMakeFiles/matrixApp.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/matrixApp/CMakeFiles/edit_cache.dir
-C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT/matrixApp/CMakeFiles/rebuild_cache.dir
+C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB4/CMakeFiles/edit_cache.dir
+C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB4/CMakeFiles/main.dir
+C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB4/CMakeFiles/rebuild_cache.dir

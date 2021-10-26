@@ -52,116 +52,57 @@ CMAKE_BINARY_DIR = C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: PROJEKT\all
+all: LAB4\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: PROJEKT\preinstall
+preinstall: LAB4\preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: PROJEKT\clean
+clean: LAB4\clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory PROJEKT
+# Directory level rules for directory LAB4
 
 # Recursive "all" directory target.
-PROJEKT\all: PROJEKT\matrixLib\all
-PROJEKT\all: PROJEKT\matrixApp\all
-.PHONY : PROJEKT\all
+LAB4\all: LAB4\CMakeFiles\main.dir\all
+.PHONY : LAB4\all
 
 # Recursive "preinstall" directory target.
-PROJEKT\preinstall: PROJEKT\matrixLib\preinstall
-PROJEKT\preinstall: PROJEKT\matrixApp\preinstall
-.PHONY : PROJEKT\preinstall
+LAB4\preinstall:
+.PHONY : LAB4\preinstall
 
 # Recursive "clean" directory target.
-PROJEKT\clean: PROJEKT\matrixLib\clean
-PROJEKT\clean: PROJEKT\matrixApp\clean
-.PHONY : PROJEKT\clean
+LAB4\clean: LAB4\CMakeFiles\main.dir\clean
+.PHONY : LAB4\clean
 
 #=============================================================================
-# Directory level rules for directory PROJEKT\matrixApp
-
-# Recursive "all" directory target.
-PROJEKT\matrixApp\all: PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all
-.PHONY : PROJEKT\matrixApp\all
-
-# Recursive "preinstall" directory target.
-PROJEKT\matrixApp\preinstall:
-.PHONY : PROJEKT\matrixApp\preinstall
-
-# Recursive "clean" directory target.
-PROJEKT\matrixApp\clean: PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\clean
-.PHONY : PROJEKT\matrixApp\clean
-
-#=============================================================================
-# Directory level rules for directory PROJEKT\matrixLib
-
-# Recursive "all" directory target.
-PROJEKT\matrixLib\all: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
-.PHONY : PROJEKT\matrixLib\all
-
-# Recursive "preinstall" directory target.
-PROJEKT\matrixLib\preinstall:
-.PHONY : PROJEKT\matrixLib\preinstall
-
-# Recursive "clean" directory target.
-PROJEKT\matrixLib\clean: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean
-.PHONY : PROJEKT\matrixLib\clean
-
-#=============================================================================
-# Target rules for target PROJEKT/matrixLib/CMakeFiles/matrixLib.dir
+# Target rules for target LAB4/CMakeFiles/main.dir
 
 # All Build rule for target.
-PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all:
-	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\depend
-	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=3,4 "Built target matrixLib"
-.PHONY : PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
+LAB4\CMakeFiles\main.dir\all:
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\depend
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : LAB4\CMakeFiles\main.dir\all
 
 # Build rule for subdir invocation for target.
-PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\rule: cmake_check_build_system
+LAB4\CMakeFiles\main.dir\rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
-.PHONY : PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\rule
+.PHONY : LAB4\CMakeFiles\main.dir\rule
 
 # Convenience name for target.
-matrixLib: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\rule
-.PHONY : matrixLib
+main: LAB4\CMakeFiles\main.dir\rule
+.PHONY : main
 
 # clean rule for target.
-PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean:
-	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean
-.PHONY : PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean
-
-#=============================================================================
-# Target rules for target PROJEKT/matrixApp/CMakeFiles/matrixApp.dir
-
-# All Build rule for target.
-PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
-	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\depend
-	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target matrixApp"
-.PHONY : PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all
-
-# Build rule for subdir invocation for target.
-PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 4
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
-.PHONY : PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\rule
-
-# Convenience name for target.
-matrixApp: PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\rule
-.PHONY : matrixApp
-
-# clean rule for target.
-PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\clean:
-	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\clean
-.PHONY : PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\clean
+LAB4\CMakeFiles\main.dir\clean:
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\clean
+.PHONY : LAB4\CMakeFiles\main.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
