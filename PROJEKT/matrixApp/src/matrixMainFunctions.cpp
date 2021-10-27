@@ -1,23 +1,23 @@
 #include <iostream>
+#include "../include/matrixMainFunctions.h"
+
 using namespace std;
 
-int rows1, columns1 ;
-int rows2,columns2;
-int i ,j , x; // var needed for some base operations like loops etc
 
 void editingSize(int *rows1, int *columns1, int x = 1)
 {
+
     // macierz 1
     cout << "Podaj ilosc wierszy macierzy "<< x <<endl;
     cin >> *rows1;
 
-    cout << "Podaj ilosc kolumn macierzy "<< x << endl;
+    cout << "Podaj ilosc kolumn macierzy " << x <<endl;
     cin >> *columns1;
     // trzeba dodac zabezpieczenie przed podaniem np wyrazu zamiast konkretnej liczby
 
 }
 
-void allocation(double **tab1)
+void allocation(double **tab1,int rows1, int columns1)
 {
     for(int i = 0; i < rows1; ++i)
     {
@@ -29,7 +29,7 @@ void refillingMatrix(double **tab1, int rows1, int columns1)
     cout << "Dodaj wartosci do odpowiednich miejsc w macierzy :"<< endl;
     for(int i = 0 ; i < rows1 ; i++)
     {
-        for(j=0 ; j < columns1 ; j++)
+        for(int j=0 ; j < columns1 ; j++)
 
         {
             cout << "["<< i+1 << "]" << "[" << j+1 << "]" << endl;
@@ -39,15 +39,14 @@ void refillingMatrix(double **tab1, int rows1, int columns1)
 
 }
 void displayMatrix(double **tab1, int rows1, int columns1, int x = 1) {
-    cout << "Macierz " << x << " wyglada nastepujaco :"<<endl;
-    for (i = 0; i < rows1; i++)
+    cout << "Macierz "<< x <<"wyglada nastepujaco :"<<endl;
+    for (int i = 0; i < rows1; i++)
     {
-        for(j = 0 ; j < columns1 ; j++)
+        for(int j = 0 ; j < columns1 ; j++)
         {
             cout <<" "<< tab1[i][j] ;
         }
         cout << endl ;
     }
-
-
 }
+

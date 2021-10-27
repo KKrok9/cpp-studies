@@ -118,6 +118,32 @@ main\fast:
 	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
 .PHONY : main\fast
 
+#=============================================================================
+# Target rules for targets named matrixLib
+
+# Build rule for target.
+matrixLib: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) matrixLib
+.PHONY : matrixLib
+
+# fast build rule for target.
+matrixLib\fast:
+	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build
+.PHONY : matrixLib\fast
+
+#=============================================================================
+# Target rules for targets named matrixApp
+
+# Build rule for target.
+matrixApp: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) matrixApp
+.PHONY : matrixApp
+
+# fast build rule for target.
+matrixApp\fast:
+	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build
+.PHONY : matrixApp\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -127,6 +153,8 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... matrixApp
+	@echo ... matrixLib
 .PHONY : help
 
 
