@@ -9,7 +9,7 @@ int main()
     int rows1,rows2;
     int columns1, columns2;
     int x;
-
+    double scalar; // skalar
 
     // MATRIX1
     editingSize(&rows1,&columns1, x=1) ;
@@ -32,10 +32,13 @@ int main()
 
 ///////////////////////////////////////////////////////////////////
     addMatrix(tab1,tab2,rows1,columns1,x);
+    subtractMatrix(tab1,tab2,rows1,columns1,x);
+
+
+    multiplyByScalar(tab1,rows1,columns1,&scalar,x=1);
 
     delete [] tab1;
     delete [] tab2;
-
 
 
     return 0;
