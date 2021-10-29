@@ -26,15 +26,16 @@ int main()
     refillingMatrix(tab2,rows2,columns2);
 
     //wyswietlanie wartosci
-    displayMatrix(tab1,rows1,columns1,x=1);
-    displayMatrix(tab2,rows2,columns2,x=2);
+    cout << "Macierz 1 wyglada nastepujaco :"<<endl;
+    displayMatrix(tab1,rows1,columns1);
+    cout << "Macierz 2 wyglada nastepujaco :"<<endl;
+    displayMatrix(tab2,rows2,columns2);
 
 
 ///////////////////////////////////////////////////////////////////
+
     addMatrix(tab1,tab2,rows1,columns1,x);
     subtractMatrix(tab1,tab2,rows1,columns1,x);
-
-
     multiplyByScalar(tab1,rows1,columns1,&scalar,x=1);
 
     delete [] tab1;

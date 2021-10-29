@@ -19,7 +19,8 @@ double addMatrix(double **tab1, double **tab2, int rows1, int columns1, int x) {
 
         }
     }
-    displayMatrix(tab3,rows1,columns1,x=3);
+    cout << "Macierz po wykonaniu dodawania wyglada nastepujaco :"<<endl;
+    displayMatrix(tab3,rows1,columns1);
     return **tab3;
 }
 /////////////////////////////////////////////////
@@ -38,7 +39,8 @@ double subtractMatrix(double **tab1, double **tab2, int rows1, int columns1, int
 
         }
     }
-    displayMatrix(tab3,rows1,columns1,x=3);
+    cout << "Macierz po wykonaniu odejmowania wyglada nastepujaco :"<<endl;
+    displayMatrix(tab3,rows1,columns1);
     return **tab3;
 }
 
@@ -55,7 +57,8 @@ double multiplyByScalar(double **tab1,int rows1, int columns1,double *scalar,int
 
         }
     }
-    displayMatrix(tab1,rows1,columns1,x=1);
+    cout << "Macierz po wymnożeniu przez skalar wyglada nastepujaco :"<<endl;
+    displayMatrix(tab1,rows1,columns1);
     return **tab1;
 
 }

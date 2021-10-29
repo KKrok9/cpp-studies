@@ -4,6 +4,6 @@
 ;void editingSize(int *rows1, int *columns1, int x );
 void allocation(double **tab1, int rows1, int columns1);
 void refillingMatrix(double **tab1, int rows1, int columns1);
-void displayMatrix(double **tab1, int rows1, int columns1,int x);
+void displayMatrix(double **tab1, int rows1, int columns1);
 
 #endif

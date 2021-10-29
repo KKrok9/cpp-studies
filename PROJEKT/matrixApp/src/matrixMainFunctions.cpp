@@ -38,13 +38,13 @@ void refillingMatrix(double **tab1, int rows1, int columns1)
     }
 
 }
-void displayMatrix(double **tab1, int rows1, int columns1, int x = 1) {
-    cout << "Macierz "<< x <<"wyglada nastepujaco :"<<endl;
+void displayMatrix(double **tab1, int rows1, int columns1) {
+
     for (int i = 0; i < rows1; i++)
     {
         for(int j = 0 ; j < columns1 ; j++)
         {
-            cout <<" "<< tab1[i][j] ;
+            cout <<"  "<< tab1[i][j] ;
         }
         cout << endl ;
     }
