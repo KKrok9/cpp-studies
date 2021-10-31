@@ -119,7 +119,7 @@ double multiplyMatrix(double **tab1, double **tab2,int rows1, int rows2, int col
 int multiplyMatrix(int **tab11, int **tab22,int rows1, int rows2, int columns2)
 {
 
-    double** tab3 = new double *[rows1];
+    int** tab3 = new int *[rows1];
     allocation(tab3,rows1,columns2);
     cout << "Macierz wynikowa wyglada nastepujaco :\n" << endl;
 
