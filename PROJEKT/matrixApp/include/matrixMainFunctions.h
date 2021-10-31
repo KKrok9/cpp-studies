@@ -10,4 +10,5 @@ void displayMatrix(double **tab1, int rows1, int columns1);
 void allocation(int **tab1, int rows1, int columns1);
 void refillingMatrix(int **tab1, int rows1, int columns1);
 void displayMatrix(int **tab1, int rows1, int columns1);
+void help();
 #endif

@@ -7,16 +7,16 @@ using namespace std;
                                 ///////////DODAWANIE MACIERZY/////////////
                                 //////////////////////////////////////////
 
-int addMatrix(int **tab1, int **tab2, int rows1, int columns1) {
+int addMatrix(int **tab11, int **tab22, int rows1, int columns1) {
 
     int** tab3 = new int *[rows1];
-    allocation(tab1,rows1,columns1);
+    allocation(tab3,rows1,columns1);
 
     for (int i = 0; i < rows1; i++) {
 
         for (int j = 0; j < columns1; j++) {
 
-            tab3[i][j]=tab1[i][j]+tab2[i][j] ;
+            tab3[i][j]=tab11[i][j]+tab22[i][j] ;
 
         }
     }
@@ -69,7 +69,7 @@ double subtractMatrix(double **tab1, double **tab2, int rows1, int columns1) {
     displayMatrix(tab3,rows1,columns1);
     return **tab3;
 }
-int subtractMatrix(int  **tab1, int **tab2, int rows1, int columns1) {
+int subtractMatrix(int  **tab11, int **tab22, int rows1, int columns1) {
 
     int ** tab3 = new int *[rows1];
     allocation(tab3,rows1,columns1);
@@ -78,7 +78,7 @@ int subtractMatrix(int  **tab1, int **tab2, int rows1, int columns1) {
 
         for (int j = 0; j < columns1; j++) {
 
-            tab3[i][j]=tab1[i][j]-tab2[i][j] ;
+            tab3[i][j]=tab11[i][j]-tab22[i][j] ;
 
         }
     }
@@ -116,6 +116,28 @@ double multiplyMatrix(double **tab1, double **tab2,int rows1, int rows2, int col
     return **tab3;
 }
 
+int multiplyMatrix(int **tab11, int **tab22,int rows1, int rows2, int columns2)
+{
+
+    double** tab3 = new double *[rows1];
+    allocation(tab3,rows1,columns2);
+    cout << "Macierz wynikowa wyglada nastepujaco :\n" << endl;
+
+    for (int i = 0; i < rows1; i++) {
+        for (int j = 0; j < columns2; j++) {
+            tab3[i][j] = 0;
+
+            for (int k = 0; k < rows2; k++) {
+                tab3[i][j] += tab11[i][k] * tab22[k][j];
+            }
+
+            cout << tab3[i][j] << "\t";
+        }
+
+        cout << endl;
+    }
+    return **tab3;
+}
 
 
 
@@ -143,7 +165,24 @@ double multiplyByScalar(double **tab1,int rows1, int columns1,double *scalar)
     return **tab1;
 
 }
+int multiplyByScalar(int **tab11,int rows1, int columns1,double *scalar)
+{
+    cout << "Podaj skalar :"<< endl;
+    cin >> *scalar;
 
+    for (int i = 0; i < rows1; i++) {
+
+        for (int j = 0; j < columns1; j++) {
+
+            tab11[i][j]= tab11[i][j] * *scalar;
+
+        }
+    }
+    cout << "Macierz po wymnozeniu przez skalar wyglada nastepujaco :"<<endl;
+    displayMatrix(tab11,rows1,columns1);
+    return **tab11;
+
+}
 
                                                 ///////////////////////////////
                                                 ////transponowanie_macierzy///
@@ -164,7 +203,7 @@ double transpozeMatrix(double **tab1,int rows1, int columns1) {
     return **tab3;
 }
 
-int transpozeMatrix(int **tab1,int rows1, int columns1) {
+int transpozeMatrix(int **tab11,int rows1, int columns1) {
     int **tab3 = new int *[rows1];
     allocation(tab3, rows1, columns1);
     cout << "Macierz po wykonaniu transpozycji wyglada nastepujaco  :" << endl;
@@ -172,7 +211,7 @@ int transpozeMatrix(int **tab1,int rows1, int columns1) {
     {
         for(int j=0; j < columns1 ; ++j)
         {
-            tab3[j][i] = tab1[i][j];
+            tab3[j][i] = tab11[i][j];
         }
     }
     displayMatrix(tab3,columns1,rows1);
@@ -228,6 +267,49 @@ double powerMatrix(double **tab1, int rows1,int rows2, int columns1,int *exponen
     return **tab3;
 }
 
+int powerMatrix(int **tab11, int rows1,int rows2, int columns1,int *exponent)
+{
+    cout << "Podaj potege"<<endl;
+    cin>> *exponent;
+    int **tab3 = new int *[rows1];
+    int **helpTab = new int *[rows1];
+    allocation(tab3, rows1, columns1);
+    allocation(helpTab, rows1, columns1);
+
+    for (int i = 0;i<rows1;++i)
+    {
+        for(int j=0; j<columns1; ++j)
+        {
+            tab3[i][j] = tab11[i][j];
+            helpTab[i][j] = tab11[i][j];
+        }
+    }
+    if(*exponent > 0)
+    {
+        for(int i = 2;i <= *exponent; i++)
+        {
+            **tab3 = multiplyMatrix(tab3, helpTab,rows1,rows1, columns1);
+        }
+    }
+    else if (*exponent==0)
+    {
+        for(int i = 0 ; i < rows1 ; i++) {
+            for (int j = 0; j < columns1; j++){
+                if (i==j){
+
+                    tab3[i][j] =1;
+                }
+
+                else{
+                    tab3[i][j]=0;
+                }
+
+            }
+        }
+    }
+    return **tab3;
+}
+
 
 
                                             /////////////////////////////
@@ -258,7 +340,7 @@ void helperForDouble(double **tab1, double **helpTab, int rows1,int columns1, in
         }
     }
 }
-void helperForInt(int **tab1, int **helpTab, int rows1,int columns1, int n)
+void helperForInt(int **tab11, int **helpTab, int rows1,int columns1, int n)
 {
     int x = 0;
     int y = 0;
@@ -271,7 +353,7 @@ void helperForInt(int **tab1, int **helpTab, int rows1,int columns1, int n)
         {
             if (i != rows1 && j != columns1)
             {
-                helpTab[x][y++] = tab1[i][j];
+                helpTab[x][y++] = tab11[i][j];
 
                 if (y == n - 1)
                 {
@@ -312,7 +394,7 @@ double determinantMatrix(double **tab1, int rows1,int columns1)
 
     return res;
 }
-int determinantMatrix(int **tab1, int rows1,int columns1)
+int determinantMatrix(int **tab11, int rows1,int columns1)
 {
     int res = 0;
     int var = 1;
@@ -322,17 +404,17 @@ int determinantMatrix(int **tab1, int rows1,int columns1)
 
     if (rows1 == 1)
     {
-        return tab1[0][0];
+        return tab11[0][0];
     }
     else if(rows1 == 2)
     {
-        return (tab1[0][0] * tab1[1][1] - tab1[0][1] * tab1[1][0]);
+        return (tab11[0][0] * tab11[1][1] - tab11[0][1] * tab11[1][0]);
     }
 
     for (int i = 0 ; i < rows1; i++)
     {
-        helperForInt(tab1,helpTab,0, i, rows1 );
-        res += var * tab1[0][i] * determinantMatrix(helpTab,rows1-1,columns1);
+        helperForInt(tab11,helpTab,0, i, rows1 );
+        res += var * tab11[0][i] * determinantMatrix(helpTab,rows1-1,columns1);
         var = -var;
 
     }
@@ -362,14 +444,14 @@ bool matrixIsDiagonal (double **tab1, int rows1, int columns1)
 
 }
 
-bool matrixIsDiagonal (int **tab1, int rows1, int columns1)
+bool matrixIsDiagonal (int **tab11, int rows1, int columns1)
 
 {
     for ( int i = 0; i <rows1; i++)
     {
         for(int j = 0; j < columns1; j++ )
         {
-            if (i!=j && tab1[i][j]!= 0)
+            if (i!=j && tab11[i][j]!= 0)
             {
                 return false;
             }
@@ -390,38 +472,45 @@ void swap(int &a, int &b)
     b = var;
 }
 
+void swap(double &a,double &b)
+{
+    double var = a;
+    a = b;
+    b = var;
+}
+
                                     //////////////////////////////////////
                                     //////Sortowanie bąbelkowe///////////
                                     ////////////////////////////////////
 
-double sortRow(double *arr, int columns1)
+double sortRow(double *arr2, int columns1)
 {
 
     for(int i = 0; i < columns1; i++) {
         for (int j = 0; j < columns1 - 1; j++)
         {
-            if (arr[j]> arr[j+1])
+            if (arr2[j]> arr2[j+1])
             {
-                swap(arr[j+1], arr[j]);
+                swap(arr2[j+1], arr2[j]);
             }
         }
     }
-    return *arr;
+    return *arr2;
 }
 
-int sortRow(int *arr, int columns1)
+int sortRow(int *arr1, int columns1)
 {
 
     for(int i = 0; i < columns1; i++) {
         for (int j = 0; j < columns1 - 1; j++)
         {
-            if (arr[j]> arr[j+1])
+            if (arr1[j]> arr1[j+1])
             {
-                swap(arr[j+1], arr[j]);
+                swap(arr1[j+1], arr1[j]);
             }
         }
     }
-    return *arr;
+    return *arr1;
 }
 
                                         ///////////////////////////////
@@ -439,15 +528,15 @@ double sortRowInMatrix(double **tab1, int rows1, int columns1)
 }
 
 
-int sortRowInMatrix(int **tab1, int rows1, int columns1)
+int sortRowInMatrix(int **tab11, int rows1, int columns1)
 {
     int **tab3 = new int *[rows1];
     allocation(tab3, rows1, columns1);
     for(int i = 0 ; i< rows1; i++)
     {
-        sortRow(tab1[i],columns1);
+        sortRow(tab11[i],columns1);
     }
-    return **tab1;
+    return **tab11;
 }
 
 ///////////////////////////////////////////////////////////////////////////////////

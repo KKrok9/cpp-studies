@@ -6,9 +6,14 @@ using namespace std;
 
 void editingSize(int *rows1, int *columns1)
 {
-
+    cout << "Wiersze :"<< endl;
     cin >> *rows1;
+    cout << "Kolumny :" << endl;
     cin >> *columns1;
+    if (*rows1 < 0 || *columns1 < 0)
+    {
+        help();
+    }
 
 }
 
@@ -87,3 +92,9 @@ void displayMatrix(int **tab1, int rows1, int columns1) {
     }
 }
 
+void help ()
+{
+    cout << "Wymiar macierzy musi byc liczba dodatnia"<<endl;
+    cout << "Aby wykonac dodawanie i odejmowanie macierzy, ilosc kolumn i wierszy, musi byc taka sama" << endl;
+    cout << "Liczba kolumn macierzy A, musi byc rowna liczbie wierszy macierzy B!!!"<< endl;
+}
