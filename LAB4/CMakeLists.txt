@@ -4,4 +4,4 @@ project(LAB4)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(main "ZADANIA1-4 _ LAB4/main.cpp")
+add_executable(main "ZADANIE 5/main.cpp")
