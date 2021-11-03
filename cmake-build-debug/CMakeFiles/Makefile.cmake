@@ -47,15 +47,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
-  "LAB4/CMakeFiles/CMakeDirectoryInformation.cmake"
   "PROJEKT/CMakeFiles/CMakeDirectoryInformation.cmake"
   "PROJEKT/matrixLib/CMakeFiles/CMakeDirectoryInformation.cmake"
   "PROJEKT/matrixApp/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LAB4/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "LAB4/CMakeFiles/main.dir/DependInfo.cmake"
   "PROJEKT/matrixLib/CMakeFiles/matrixLib.dir/DependInfo.cmake"
   "PROJEKT/matrixApp/CMakeFiles/matrixApp.dir/DependInfo.cmake"
+  "LAB4/CMakeFiles/main.dir/DependInfo.cmake"
   )

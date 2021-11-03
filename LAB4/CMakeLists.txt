@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(ZADANIE1)
+project(LAB4)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(main ZADANIE1/main.cpp)
+add_executable(main "ZADANIA1-4 _ LAB4/main.cpp")

@@ -106,19 +106,6 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named main
-
-# Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
-.PHONY : main
-
-# fast build rule for target.
-main\fast:
-	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
-.PHONY : main\fast
-
-#=============================================================================
 # Target rules for targets named matrixLib
 
 # Build rule for target.
@@ -143,6 +130,19 @@ matrixApp: cmake_check_build_system
 matrixApp\fast:
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build
 .PHONY : matrixApp\fast
+
+#=============================================================================
+# Target rules for targets named main
+
+# Build rule for target.
+main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
+.PHONY : main
+
+# fast build rule for target.
+main\fast:
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
+.PHONY : main\fast
 
 # Help Target
 help:

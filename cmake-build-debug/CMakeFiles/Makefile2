@@ -52,18 +52,18 @@ CMAKE_BINARY_DIR = C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: LAB4\all
 all: PROJEKT\all
+all: LAB4\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
-preinstall: LAB4\preinstall
 preinstall: PROJEKT\preinstall
+preinstall: LAB4\preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: LAB4\clean
 clean: PROJEKT\clean
+clean: LAB4\clean
 .PHONY : clean
 
 #=============================================================================
@@ -130,32 +130,6 @@ PROJEKT\matrixLib\clean: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean
 .PHONY : PROJEKT\matrixLib\clean
 
 #=============================================================================
-# Target rules for target LAB4/CMakeFiles/main.dir
-
-# All Build rule for target.
-LAB4\CMakeFiles\main.dir\all:
-	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\depend
-	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target main"
-.PHONY : LAB4\CMakeFiles\main.dir\all
-
-# Build rule for subdir invocation for target.
-LAB4\CMakeFiles\main.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
-.PHONY : LAB4\CMakeFiles\main.dir\rule
-
-# Convenience name for target.
-main: LAB4\CMakeFiles\main.dir\rule
-.PHONY : main
-
-# clean rule for target.
-LAB4\CMakeFiles\main.dir\clean:
-	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\clean
-.PHONY : LAB4\CMakeFiles\main.dir\clean
-
-#=============================================================================
 # Target rules for target PROJEKT/matrixLib/CMakeFiles/matrixLib.dir
 
 # All Build rule for target.
@@ -206,6 +180,32 @@ matrixApp: PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\rule
 PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\clean:
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\clean
 .PHONY : PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\clean
+
+#=============================================================================
+# Target rules for target LAB4/CMakeFiles/main.dir
+
+# All Build rule for target.
+LAB4\CMakeFiles\main.dir\all:
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\depend
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target main"
+.PHONY : LAB4\CMakeFiles\main.dir\all
+
+# Build rule for subdir invocation for target.
+LAB4\CMakeFiles\main.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : LAB4\CMakeFiles\main.dir\rule
+
+# Convenience name for target.
+main: LAB4\CMakeFiles\main.dir\rule
+.PHONY : main
+
+# clean rule for target.
+LAB4\CMakeFiles\main.dir\clean:
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\clean
+.PHONY : LAB4\CMakeFiles\main.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.
