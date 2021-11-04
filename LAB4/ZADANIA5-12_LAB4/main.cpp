@@ -4,10 +4,11 @@ using namespace std;
 
 class Prostopadloscian
 {
-public:
+private:
     double bok_a = 10;
     double bok_b= 20;
     double bok_c = 30;
+public:
     void wyswietlanie()
     {
         cout <<"Objetosc prostopadloscianiu wynosi :"<< bok_a*bok_b*bok_c<<endl;
@@ -17,9 +18,10 @@ public:
 //////////////////////
 class Kula
 {
-public:
+private:
     double promien = 4.20;
     double Pi = 3.14;
+public:
     void wyswietlanie()
     {
         cout << "Objetosc kuli wynosi :"<< 4/3 * Pi * pow(promien,3) <<endl;
@@ -29,10 +31,11 @@ public:
 ///////////////////////
 class Rownanie
 {
-public :
+private:
     double a ;
     double b;
     double c;
+public:
     void pobieranie()
     {
         cout <<"Podaj wspolczynniki"<<endl;
@@ -40,6 +43,7 @@ public :
         cin >> b;
         cin >> c;
     }
+
     void wyswietlanie()
     {
         cout <<"Twoje rownanie kwadratowe ma postac :"<<"f(x) = "<< a<<"x^2 + " << b << "x + " << c <<endl;
@@ -48,13 +52,13 @@ public :
 /////////////////////////
 class Dane
 {
-public :
+private:
     string imie ;
     string nazwisko;
     int numer_albumu;
     double liczba_pytan;
     double poprawne_odpowiedzi;
-
+public:
     void uzupelnianie()
     {
         cout <<"Podaj Imie studenta:"<<endl;
