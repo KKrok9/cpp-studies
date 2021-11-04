@@ -28,6 +28,8 @@ public:
     }
 
 };
+
+
 int main()
 {
     Punkt Punkt1(5,10,20,30);

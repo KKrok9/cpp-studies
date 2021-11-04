@@ -15,10 +15,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LAB4/ZADANIA13-14_LAB4/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LAB4/ZADANIA15-19_LAB4/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB4/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LAB4/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB4/ZADANIA13-14_LAB4/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB4/ZADANIA13-14_LAB4/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -234,7 +233,7 @@
       <workItem from="1635847103719" duration="122000" />
       <workItem from="1635962070726" duration="5160000" />
       <workItem from="1635975399810" duration="2784000" />
-      <workItem from="1636023667870" duration="2527000" />
+      <workItem from="1636023667870" duration="3789000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1634024393156</created>
@@ -474,7 +473,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636025741128</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="2 commit">
+      <created>1636028215834</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1636028215834</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
