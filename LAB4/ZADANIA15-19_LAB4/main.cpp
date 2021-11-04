@@ -1,25 +1,41 @@
 #include <iostream>
 #include <string>
 using namespace std;
-// Nie idzie mi cos z tymi destruktorami :(((
+
 class Zadania
 {
 public:
     Zadania();
     ~Zadania();
+    int * tab = new int[1024];
+    void pause()
+    {
+        system("PAUSE");
+    }
+
+
 };
 
 int main()
 {
-    Zadania *Zadaniaa;
-    Zadaniaa = new Zadania;
+    Zadania * Zadania1;
+    Zadania1 = new Zadania;
 
-    delete Zadaniaa;
-    return 0;
+
+    Zadania1->pause();
+    delete Zadania1;
+    return 0 ;
 }
-Zadania :: Zadania()
+
+Zadania::Zadania()
 {
-    cout<< "Konstruktor Wywolany."<<endl;
+    cout << "Konstruktor zostal wywolany!" << endl;
+}
+Zadania :: ~Zadania()
+{
+    cout << "Nie ida mi te destruktory ale bedzie dobrze!!!! :D " <<endl;
+
+    delete [] tab;
 }
 
 
