@@ -232,6 +232,12 @@ LAB4_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB
 LAB4_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/LAB4
 
 //Value Computed by CMake
+LAB5_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB5
+
+//Value Computed by CMake
+LAB5_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/LAB5
+
+//Value Computed by CMake
 PROJEKT_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT
 
 //Value Computed by CMake
@@ -248,6 +254,12 @@ SimpleCalc_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-deb
 
 //Value Computed by CMake
 SimpleCalc_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/simpleCalc
+
+//Value Computed by CMake
+TEST_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/TEST
+
+//Value Computed by CMake
+TEST_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/TEST
 
 //Value Computed by CMake
 ZADANIE10_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3
@@ -454,7 +466,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=5
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=8
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

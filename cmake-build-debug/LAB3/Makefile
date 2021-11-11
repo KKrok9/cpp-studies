@@ -116,52 +116,52 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-LAB3\CMakeFiles\main.dir\rule:
+LAB3\CMakeFiles\main3.dir\rule:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\rule
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main3.dir\rule
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : LAB3\CMakeFiles\main.dir\rule
+.PHONY : LAB3\CMakeFiles\main3.dir\rule
 
 # Convenience name for target.
-main: LAB3\CMakeFiles\main.dir\rule
-.PHONY : main
+main3: LAB3\CMakeFiles\main3.dir\rule
+.PHONY : main3
 
 # fast build rule for target.
-main\fast:
+main3\fast:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\build
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main3.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main3.dir\build
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : main\fast
+.PHONY : main3\fast
 
-ZADANIE10\main.obj: ZADANIE10\main.cpp.obj
-.PHONY : ZADANIE10\main.obj
+ZADANIE1\main.obj: ZADANIE1\main.cpp.obj
+.PHONY : ZADANIE1\main.obj
 
 # target to build an object file
-ZADANIE10\main.cpp.obj:
+ZADANIE1\main.cpp.obj:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE10\main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main3.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main3.dir\ZADANIE1\main.cpp.obj
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : ZADANIE10\main.cpp.obj
+.PHONY : ZADANIE1\main.cpp.obj
 
-ZADANIE10\main.i: ZADANIE10\main.cpp.i
-.PHONY : ZADANIE10\main.i
+ZADANIE1\main.i: ZADANIE1\main.cpp.i
+.PHONY : ZADANIE1\main.i
 
 # target to preprocess a source file
-ZADANIE10\main.cpp.i:
+ZADANIE1\main.cpp.i:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE10\main.cpp.i
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main3.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main3.dir\ZADANIE1\main.cpp.i
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : ZADANIE10\main.cpp.i
+.PHONY : ZADANIE1\main.cpp.i
 
-ZADANIE10\main.s: ZADANIE10\main.cpp.s
-.PHONY : ZADANIE10\main.s
+ZADANIE1\main.s: ZADANIE1\main.cpp.s
+.PHONY : ZADANIE1\main.s
 
 # target to generate assembly for a file
-ZADANIE10\main.cpp.s:
+ZADANIE1\main.cpp.s:
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug
-	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main.dir\ZADANIE10\main.cpp.s
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main3.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main3.dir\ZADANIE1\main.cpp.s
 	cd C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3
-.PHONY : ZADANIE10\main.cpp.s
+.PHONY : ZADANIE1\main.cpp.s
 
 # Help Target
 help:
@@ -171,10 +171,10 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... main
-	@echo ... ZADANIE10/main.obj
-	@echo ... ZADANIE10/main.i
-	@echo ... ZADANIE10/main.s
+	@echo ... main3
+	@echo ... ZADANIE1/main.obj
+	@echo ... ZADANIE1/main.i
+	@echo ... ZADANIE1/main.s
 .PHONY : help
 
 

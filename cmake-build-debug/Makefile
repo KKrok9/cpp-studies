@@ -132,6 +132,19 @@ matrixApp\fast:
 .PHONY : matrixApp\fast
 
 #=============================================================================
+# Target rules for targets named main3
+
+# Build rule for target.
+main3: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main3
+.PHONY : main3
+
+# fast build rule for target.
+main3\fast:
+	$(MAKE) $(MAKESILENT) -f LAB3\CMakeFiles\main3.dir\build.make /nologo -$(MAKEFLAGS) LAB3\CMakeFiles\main3.dir\build
+.PHONY : main3\fast
+
+#=============================================================================
 # Target rules for targets named main
 
 # Build rule for target.
@@ -144,6 +157,32 @@ main\fast:
 	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
 .PHONY : main\fast
 
+#=============================================================================
+# Target rules for targets named main5
+
+# Build rule for target.
+main5: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main5
+.PHONY : main5
+
+# fast build rule for target.
+main5\fast:
+	$(MAKE) $(MAKESILENT) -f LAB5\CMakeFiles\main5.dir\build.make /nologo -$(MAKEFLAGS) LAB5\CMakeFiles\main5.dir\build
+.PHONY : main5\fast
+
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) test
+.PHONY : test
+
+# fast build rule for target.
+test\fast:
+	$(MAKE) $(MAKESILENT) -f TEST\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\build
+.PHONY : test\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -153,8 +192,11 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... main
+	@echo ... main3
+	@echo ... main5
 	@echo ... matrixApp
 	@echo ... matrixLib
+	@echo ... test
 .PHONY : help
 
 

@@ -5,7 +5,7 @@
 		<Option title="LAB3"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\LAB3\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\PROJEKT\;CMake Files\PROJEKT\matrixLib\;CMake Files\PROJEKT\matrixApp\;CMake Files\LAB3\;CMake Files\LAB4\;CMake Files\LAB5\;CMake Files\TEST\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3"/>
@@ -17,8 +17,8 @@
 					<DistClean command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main">
-				<Option output="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3/main.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="main3">
+				<Option output="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3/main3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -34,14 +34,14 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 main"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 main3"/>
 					<CompileFile command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
-			<Target title="main/fast">
-				<Option output="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3/main.exe" prefix_auto="0" extension_auto="0"/>
+			<Target title="main3/fast">
+				<Option output="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3/main3.exe" prefix_auto="0" extension_auto="0"/>
 				<Option working_dir="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
@@ -57,21 +57,39 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 main/fast"/>
+					<Build command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 main3/fast"/>
 					<CompileFile command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 &quot;$file&quot;"/>
 					<Clean command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 clean"/>
 					<DistClean command="nmake /NOLOGO /f C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\LAB3\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/LAB3/ZAD1/main.cpp">
-			<Option target="main"/>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/LAB3/ZADANIE1/main.cpp">
+			<Option target="main3"/>
 		</Unit>
 		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/PROJEKT/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PROJEKT\"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/PROJEKT/matrixLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PROJEKT\matrixLib\"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/PROJEKT/matrixApp/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\PROJEKT\matrixApp\"/>
+		</Unit>
 		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/LAB3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\LAB3\"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/LAB4/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB4\"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/LAB5/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB5\"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/TEST/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\TEST\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
