@@ -45,6 +45,7 @@ public:
 int main()
 {
     Event wydarzenie(1,"marzec",1,"wydarzenie");
+    wydarzenie.insert();
     wydarzenie.show();
 
     return 0;

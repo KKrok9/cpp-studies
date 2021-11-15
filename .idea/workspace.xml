@@ -18,25 +18,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LAB5/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/ZADANIE1_5/include/Point.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/ZADANIE1_5/src/Point.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB5/ZADANIE1_5/src/main.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TEST/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB3/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LAB3/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB5/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB5/ZADANIE1_5/include/Point.h" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/ZADANIE1_5/include/Car.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB5/ZADANIE1_5/src/Point.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/ZADANIE1_5/src/Car.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB5/ZADANIE1_5/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB5/ZADANIE1_5/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LAB3/LAB3.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB3/LAB3.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/LAB3/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/LAB3/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,6 +54,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zOfVTKfluWX8nyuSzfR1d7jmb1" />
   <component name="ProjectLevelVcsManager">
@@ -96,7 +89,7 @@
       <recent name="C:\Users\Kacper\CLionProjects\JiPP2\LAB4\ZADANIE1" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.test">
+  <component name="RunManager" selected="CMake Application.main5">
     <configuration type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="add 12 100" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -202,6 +195,21 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="main" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="main" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="main">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -212,7 +220,7 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="main5" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="main5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="main5">
+    <configuration name="main5" type="CMakeRunConfiguration" factoryName="Application" temporary="true" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="main5" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="main5">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -232,19 +240,19 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="CMake Application.main3" />
       <item itemvalue="CMake Application.main" />
-      <item itemvalue="CMake Application.main5" />
       <item itemvalue="CMake Application.matrixApp" />
       <item itemvalue="CMake Application.matrixLib" />
       <item itemvalue="CMake Application.test" />
+      <item itemvalue="CMake Application.main5" />
     </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="CMake Application.main5" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -288,7 +296,10 @@
       <workItem from="1636023667870" duration="6392000" />
       <workItem from="1636391710403" duration="148000" />
       <workItem from="1636446602395" duration="2648000" />
-      <workItem from="1636629752677" duration="7070000" />
+      <workItem from="1636629752677" duration="7086000" />
+      <workItem from="1636713895998" duration="1195000" />
+      <workItem from="1636995949497" duration="2114000" />
+      <workItem from="1636998090901" duration="2843000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1634024393156</created>
@@ -556,7 +567,14 @@
       <option name="project" value="LOCAL" />
       <updated>1636045142199</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="2 commit">
+      <created>1636654592520</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1636654592520</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
