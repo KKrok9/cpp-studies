@@ -183,6 +183,32 @@ test\fast:
 	$(MAKE) $(MAKESILENT) -f TEST\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\build
 .PHONY : test\fast
 
+#=============================================================================
+# Target rules for targets named main6
+
+# Build rule for target.
+main6: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main6
+.PHONY : main6
+
+# fast build rule for target.
+main6\fast:
+	$(MAKE) $(MAKESILENT) -f LAB6\CMakeFiles\main6.dir\build.make /nologo -$(MAKEFLAGS) LAB6\CMakeFiles\main6.dir\build
+.PHONY : main6\fast
+
+#=============================================================================
+# Target rules for targets named friendly
+
+# Build rule for target.
+friendly: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) friendly
+.PHONY : friendly
+
+# fast build rule for target.
+friendly\fast:
+	$(MAKE) $(MAKESILENT) -f LAB6\CMakeFiles\friendly.dir\build.make /nologo -$(MAKEFLAGS) LAB6\CMakeFiles\friendly.dir\build
+.PHONY : friendly\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -191,9 +217,11 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... friendly
 	@echo ... main
 	@echo ... main3
 	@echo ... main5
+	@echo ... main6
 	@echo ... matrixApp
 	@echo ... matrixLib
 	@echo ... test
