@@ -20,8 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/LAB6/FRIENDLY_FUNCTIONS/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB6/FRIENDLY_FUNCTIONS/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB6/FRIENDLY_FUNCTIONS/include/Node.h" beforeDir="false" afterPath="$PROJECT_DIR$/LAB6/FRIENDLY_FUNCTIONS/include/Node.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB6/VECTOR/include/Vector.h" beforeDir="false" afterPath="$PROJECT_DIR$/LAB6/VECTOR/include/Vector.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB6/VECTOR/src/Vector.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB6/VECTOR/src/Vector.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB6/VECTOR/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB6/VECTOR/src/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -307,7 +310,7 @@
       <workItem from="1636713895998" duration="1195000" />
       <workItem from="1636995949497" duration="2114000" />
       <workItem from="1636998090901" duration="3408000" />
-      <workItem from="1637050820767" duration="2523000" />
+      <workItem from="1637050820767" duration="4815000" />
     </task>
     <task id="LOCAL-00001" summary="1 commit">
       <created>1634024393156</created>
@@ -610,7 +613,14 @@
       <option name="project" value="LOCAL" />
       <updated>1637053153884</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="2 commit">
+      <created>1637053361207</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1637053361207</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
