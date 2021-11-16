@@ -3,7 +3,6 @@
 
 
 class Node {
-    friend void pointsDistance(Node&, Node&); // deklaracja przyjaźni
 private:
     double x, y;
 
@@ -14,10 +13,12 @@ public:
     void display();
 
     void updateValue(double x, double y);
+    friend double pointsDistance(Node&, Node&); // deklaracja przyjaźni
+
 
 };
 
-double pointsDistance(Node a, Node b);
+double pointsDistance(Node&, Node&);
 
 
 
