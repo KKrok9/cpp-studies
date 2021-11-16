@@ -12,18 +12,25 @@ private:
     string *tab;
     string marka;
     string typ;
-
+    static int najnowszaWersjaOprogramowania;
+    string zainstalowanaWersjaOprogramowania;
 
 public:
     Car(string rejestracja, string nazwa, int miejsca, string marka, string typ);
     Car(Car &car);
     void wyswietl();
     void setMarka(string marka);
+    string getMarka();
     void setNazwa(string nazwa);
+    string getNazwa();
     void setRejestracja(string rejestracja);
+    string getRejestracja();
     void setMiejsca(int miejsca);
     void setTyp(string typ);
-
+    string getTyp();
+    void wypiszWersjeOprogramowania();
+    void zaktualizujWersjeOprogramowania();
+    static void opublikujNowe(int nowaWersja);
 };
 
 

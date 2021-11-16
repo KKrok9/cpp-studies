@@ -39,6 +39,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB2/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3/cmake_install.cmake")
 endif()
 

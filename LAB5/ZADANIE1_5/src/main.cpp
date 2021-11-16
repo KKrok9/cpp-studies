@@ -18,7 +18,13 @@ int main() {
     c2.setTyp("Sedan");
     c2.wyswietl();
 
+    cout << "Przed aktualizacja : "<< endl;
+    c1.wypiszWersjeOprogramowania();
+    Car::opublikujNowe(1);
+    c1.zaktualizujWersjeOprogramowania();
 
+    cout << "Po aktualizacji : "<< endl;
+    c1.wypiszWersjeOprogramowania();
 
     return 0;
 }

@@ -132,6 +132,19 @@ matrixApp\fast:
 .PHONY : matrixApp\fast
 
 #=============================================================================
+# Target rules for targets named main2
+
+# Build rule for target.
+main2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main2
+.PHONY : main2
+
+# fast build rule for target.
+main2\fast:
+	$(MAKE) $(MAKESILENT) -f LAB2\CMakeFiles\main2.dir\build.make /nologo -$(MAKEFLAGS) LAB2\CMakeFiles\main2.dir\build
+.PHONY : main2\fast
+
+#=============================================================================
 # Target rules for targets named main3
 
 # Build rule for target.
@@ -219,6 +232,7 @@ help:
 	@echo ... rebuild_cache
 	@echo ... friendly
 	@echo ... main
+	@echo ... main2
 	@echo ... main3
 	@echo ... main5
 	@echo ... main6

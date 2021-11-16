@@ -5,7 +5,7 @@
 		<Option title="LAB3"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="msvc8"/>
-		<Option virtualFolders="CMake Files\;CMake Files\PROJEKT\;CMake Files\PROJEKT\matrixLib\;CMake Files\PROJEKT\matrixApp\;CMake Files\LAB3\;CMake Files\LAB4\;CMake Files\LAB5\;CMake Files\TEST\;CMake Files\LAB6\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\PROJEKT\;CMake Files\PROJEKT\matrixLib\;CMake Files\PROJEKT\matrixApp\;CMake Files\LAB2\;CMake Files\LAB3\;CMake Files\LAB4\;CMake Files\LAB5\;CMake Files\TEST\;CMake Files\LAB6\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB3"/>
@@ -78,6 +78,9 @@
 		</Unit>
 		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/PROJEKT/matrixApp/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\PROJEKT\matrixApp\"/>
+		</Unit>
+		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/LAB2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\LAB2\"/>
 		</Unit>
 		<Unit filename="C:/Users/Kacper/CLionProjects/JiPP2/LAB3/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\LAB3\"/>
