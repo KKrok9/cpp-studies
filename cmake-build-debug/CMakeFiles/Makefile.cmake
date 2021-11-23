@@ -13,6 +13,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "../LAB4/CMakeLists.txt"
   "../LAB5/CMakeLists.txt"
   "../LAB6/CMakeLists.txt"
+  "../LAB7/CMakeLists.txt"
   "../PROJEKT/CMakeLists.txt"
   "../PROJEKT/matrixApp/CMakeLists.txt"
   "../PROJEKT/matrixLib/CMakeLists.txt"
@@ -61,6 +62,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "LAB5/CMakeFiles/CMakeDirectoryInformation.cmake"
   "TEST/CMakeFiles/CMakeDirectoryInformation.cmake"
   "LAB6/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "LAB7/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -69,9 +71,10 @@ set(CMAKE_DEPEND_INFO_FILES
   "PROJEKT/matrixApp/CMakeFiles/matrixApp.dir/DependInfo.cmake"
   "LAB2/CMakeFiles/main2.dir/DependInfo.cmake"
   "LAB3/CMakeFiles/main3.dir/DependInfo.cmake"
-  "LAB4/CMakeFiles/main.dir/DependInfo.cmake"
+  "LAB4/CMakeFiles/main4.dir/DependInfo.cmake"
   "LAB5/CMakeFiles/main5.dir/DependInfo.cmake"
   "TEST/CMakeFiles/test.dir/DependInfo.cmake"
   "LAB6/CMakeFiles/main6.dir/DependInfo.cmake"
   "LAB6/CMakeFiles/friendly.dir/DependInfo.cmake"
+  "LAB7/CMakeFiles/main7.dir/DependInfo.cmake"
   )

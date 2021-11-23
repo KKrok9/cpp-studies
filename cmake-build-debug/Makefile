@@ -158,17 +158,17 @@ main3\fast:
 .PHONY : main3\fast
 
 #=============================================================================
-# Target rules for targets named main
+# Target rules for targets named main4
 
 # Build rule for target.
-main: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main
-.PHONY : main
+main4: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main4
+.PHONY : main4
 
 # fast build rule for target.
-main\fast:
-	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main.dir\build
-.PHONY : main\fast
+main4\fast:
+	$(MAKE) $(MAKESILENT) -f LAB4\CMakeFiles\main4.dir\build.make /nologo -$(MAKEFLAGS) LAB4\CMakeFiles\main4.dir\build
+.PHONY : main4\fast
 
 #=============================================================================
 # Target rules for targets named main5
@@ -222,6 +222,19 @@ friendly\fast:
 	$(MAKE) $(MAKESILENT) -f LAB6\CMakeFiles\friendly.dir\build.make /nologo -$(MAKEFLAGS) LAB6\CMakeFiles\friendly.dir\build
 .PHONY : friendly\fast
 
+#=============================================================================
+# Target rules for targets named main7
+
+# Build rule for target.
+main7: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main7
+.PHONY : main7
+
+# fast build rule for target.
+main7\fast:
+	$(MAKE) $(MAKESILENT) -f LAB7\CMakeFiles\main7.dir\build.make /nologo -$(MAKEFLAGS) LAB7\CMakeFiles\main7.dir\build
+.PHONY : main7\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -231,11 +244,12 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... friendly
-	@echo ... main
 	@echo ... main2
 	@echo ... main3
+	@echo ... main4
 	@echo ... main5
 	@echo ... main6
+	@echo ... main7
 	@echo ... matrixApp
 	@echo ... matrixLib
 	@echo ... test
