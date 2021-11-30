@@ -4,4 +4,4 @@ project(LAB7)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(main7 "DZIEDZICZENIE/src/main.cpp")
+add_executable(main7 "DZIEDZICZENIE/main.cpp" "POLIMORFIZM/main.cpp")
