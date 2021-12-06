@@ -57,7 +57,6 @@ all: LAB2\all
 all: LAB3\all
 all: LAB4\all
 all: LAB5\all
-all: TEST\all
 all: LAB6\all
 all: LAB7\all
 all: LAB8\all
@@ -69,7 +68,6 @@ preinstall: LAB2\preinstall
 preinstall: LAB3\preinstall
 preinstall: LAB4\preinstall
 preinstall: LAB5\preinstall
-preinstall: TEST\preinstall
 preinstall: LAB6\preinstall
 preinstall: LAB7\preinstall
 preinstall: LAB8\preinstall
@@ -81,7 +79,6 @@ clean: LAB2\clean
 clean: LAB3\clean
 clean: LAB4\clean
 clean: LAB5\clean
-clean: TEST\clean
 clean: LAB6\clean
 clean: LAB7\clean
 clean: LAB8\clean
@@ -245,21 +242,6 @@ PROJEKT\matrixLib\clean: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean
 .PHONY : PROJEKT\matrixLib\clean
 
 #=============================================================================
-# Directory level rules for directory TEST
-
-# Recursive "all" directory target.
-TEST\all: TEST\CMakeFiles\test.dir\all
-.PHONY : TEST\all
-
-# Recursive "preinstall" directory target.
-TEST\preinstall:
-.PHONY : TEST\preinstall
-
-# Recursive "clean" directory target.
-TEST\clean: TEST\CMakeFiles\test.dir\clean
-.PHONY : TEST\clean
-
-#=============================================================================
 # Target rules for target PROJEKT/matrixLib/CMakeFiles/matrixLib.dir
 
 # All Build rule for target.
@@ -414,32 +396,6 @@ main5: LAB5\CMakeFiles\main5.dir\rule
 LAB5\CMakeFiles\main5.dir\clean:
 	$(MAKE) $(MAKESILENT) -f LAB5\CMakeFiles\main5.dir\build.make /nologo -$(MAKEFLAGS) LAB5\CMakeFiles\main5.dir\clean
 .PHONY : LAB5\CMakeFiles\main5.dir\clean
-
-#=============================================================================
-# Target rules for target TEST/CMakeFiles/test.dir
-
-# All Build rule for target.
-TEST\CMakeFiles\test.dir\all:
-	$(MAKE) $(MAKESILENT) -f TEST\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\depend
-	$(MAKE) $(MAKESILENT) -f TEST\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=32,33 "Built target test"
-.PHONY : TEST\CMakeFiles\test.dir\all
-
-# Build rule for subdir invocation for target.
-TEST\CMakeFiles\test.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
-.PHONY : TEST\CMakeFiles\test.dir\rule
-
-# Convenience name for target.
-test: TEST\CMakeFiles\test.dir\rule
-.PHONY : test
-
-# clean rule for target.
-TEST\CMakeFiles\test.dir\clean:
-	$(MAKE) $(MAKESILENT) -f TEST\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\clean
-.PHONY : TEST\CMakeFiles\test.dir\clean
 
 #=============================================================================
 # Target rules for target LAB6/CMakeFiles/main6.dir

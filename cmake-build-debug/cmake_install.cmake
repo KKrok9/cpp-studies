@@ -59,11 +59,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/TEST/cmake_install.cmake")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for the subdirectory.
   include("C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB6/cmake_install.cmake")
 endif()
 

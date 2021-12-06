@@ -184,19 +184,6 @@ main5\fast:
 .PHONY : main5\fast
 
 #=============================================================================
-# Target rules for targets named test
-
-# Build rule for target.
-test: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) test
-.PHONY : test
-
-# fast build rule for target.
-test\fast:
-	$(MAKE) $(MAKESILENT) -f TEST\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\build
-.PHONY : test\fast
-
-#=============================================================================
 # Target rules for targets named main6
 
 # Build rule for target.
@@ -280,7 +267,6 @@ help:
 	@echo ... main8
 	@echo ... matrixApp
 	@echo ... matrixLib
-	@echo ... test
 .PHONY : help
 
 
