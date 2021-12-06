@@ -236,6 +236,19 @@ main7\fast:
 .PHONY : main7\fast
 
 #=============================================================================
+# Target rules for targets named main7.1
+
+# Build rule for target.
+main7.1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main7.1
+.PHONY : main7.1
+
+# fast build rule for target.
+main7.1\fast:
+	$(MAKE) $(MAKESILENT) -f LAB7\CMakeFiles\main7.1.dir\build.make /nologo -$(MAKEFLAGS) LAB7\CMakeFiles\main7.1.dir\build
+.PHONY : main7.1\fast
+
+#=============================================================================
 # Target rules for targets named main8
 
 # Build rule for target.
@@ -263,6 +276,7 @@ help:
 	@echo ... main5
 	@echo ... main6
 	@echo ... main7
+	@echo ... main7.1
 	@echo ... main8
 	@echo ... matrixApp
 	@echo ... matrixLib
