@@ -23,15 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LAB8/include/TextNote.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB8/src/TextNote.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LAB8/include/ListNote.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LAB8/src/ListNote.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB8/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LAB8/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB8/include/Note.h" beforeDir="false" afterPath="$PROJECT_DIR$/LAB8/include/Note.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB8/src/Note.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB8/src/Note.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/LAB8/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB8/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,9 +248,9 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -316,6 +311,11 @@
     <configuration name="matrixLib" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="matrixLib" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <list>
@@ -390,14 +390,8 @@
       <workItem from="1638910116850" duration="16000" />
       <workItem from="1639044124003" duration="598000" />
       <workItem from="1639050557106" duration="4379000" />
-      <workItem from="1639059608919" duration="3891000" />
-    </task>
-    <task id="LOCAL-00004" summary="2 commit">
-      <created>1634112158481</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1634112158481</updated>
+      <workItem from="1639059608919" duration="3905000" />
+      <workItem from="1639067328162" duration="2231000" />
     </task>
     <task id="LOCAL-00005" summary="2 commit">
       <created>1634136636392</created>
@@ -735,7 +729,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638815766664</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="2 commit">
+      <created>1639063529759</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1639063529759</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

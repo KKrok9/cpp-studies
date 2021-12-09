@@ -8,14 +8,16 @@ using namespace std;
 
 int main()
 {
+
     TextNote tn;
 
-
-    tn.setTitle();
-    tn.setContent();
-    cout << tn.getTitle() <<endl;
-    cout << tn.getContent() << endl;
+                tn.setTitle();
+                tn.setContent();
 
 
-        return 0;
-    }
+                cout << "Tytul notatki to  "<< tn.getTitle() << endl;
+                cout << "tresc notatki jest nastepujaca : \n " << tn.getContent() << endl;
+// niedokonczone zadanie bo nie mam pomyslu na resze xdd
+
+    return 0;
+}
