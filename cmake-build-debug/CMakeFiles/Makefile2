@@ -248,7 +248,7 @@ PROJEKT\matrixLib\clean: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean
 PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all:
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\depend
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=30,31 "Built target matrixLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target matrixLib"
 .PHONY : PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
 
 # Build rule for subdir invocation for target.
@@ -274,7 +274,7 @@ PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean:
 PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\depend
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=27,28,29 "Built target matrixApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=28,29,30 "Built target matrixApp"
 .PHONY : PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all
 
 # Build rule for subdir invocation for target.
@@ -508,12 +508,12 @@ LAB7\CMakeFiles\main7.1.dir\clean:
 LAB8\CMakeFiles\main8.dir\all:
 	$(MAKE) $(MAKESILENT) -f LAB8\CMakeFiles\main8.dir\build.make /nologo -$(MAKEFLAGS) LAB8\CMakeFiles\main8.dir\depend
 	$(MAKE) $(MAKESILENT) -f LAB8\CMakeFiles\main8.dir\build.make /nologo -$(MAKEFLAGS) LAB8\CMakeFiles\main8.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=24,25,26 "Built target main8"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=24,25,26,27 "Built target main8"
 .PHONY : LAB8\CMakeFiles\main8.dir\all
 
 # Build rule for subdir invocation for target.
 LAB8\CMakeFiles\main8.dir\rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB8\CMakeFiles\main8.dir\all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
 .PHONY : LAB8\CMakeFiles\main8.dir\rule

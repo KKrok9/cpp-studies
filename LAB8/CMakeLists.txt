@@ -4,4 +4,4 @@ project(LAB8)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(main8 "src/main.cpp" "src/Note.cpp" "include/Note.h")
+add_executable(main8 "src/main.cpp" "src/Note.cpp" "src/TextNote.cpp" "include/Note.h" "include/TextNote.h")
