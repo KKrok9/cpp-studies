@@ -31,3 +31,6 @@ C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB7/CMakeFiles/main7.1.di
 C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB8/CMakeFiles/edit_cache.dir
 C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB8/CMakeFiles/main8.dir
 C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB8/CMakeFiles/rebuild_cache.dir
+C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB9/CMakeFiles/main9.dir
+C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB9/CMakeFiles/edit_cache.dir
+C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB9/CMakeFiles/rebuild_cache.dir

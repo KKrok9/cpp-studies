@@ -60,6 +60,7 @@ all: LAB5\all
 all: LAB6\all
 all: LAB7\all
 all: LAB8\all
+all: LAB9\all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -71,6 +72,7 @@ preinstall: LAB5\preinstall
 preinstall: LAB6\preinstall
 preinstall: LAB7\preinstall
 preinstall: LAB8\preinstall
+preinstall: LAB9\preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -82,6 +84,7 @@ clean: LAB5\clean
 clean: LAB6\clean
 clean: LAB7\clean
 clean: LAB8\clean
+clean: LAB9\clean
 .PHONY : clean
 
 #=============================================================================
@@ -194,6 +197,21 @@ LAB8\clean: LAB8\CMakeFiles\main8.dir\clean
 .PHONY : LAB8\clean
 
 #=============================================================================
+# Directory level rules for directory LAB9
+
+# Recursive "all" directory target.
+LAB9\all: LAB9\CMakeFiles\main9.dir\all
+.PHONY : LAB9\all
+
+# Recursive "preinstall" directory target.
+LAB9\preinstall:
+.PHONY : LAB9\preinstall
+
+# Recursive "clean" directory target.
+LAB9\clean: LAB9\CMakeFiles\main9.dir\clean
+.PHONY : LAB9\clean
+
+#=============================================================================
 # Directory level rules for directory PROJEKT
 
 # Recursive "all" directory target.
@@ -248,7 +266,7 @@ PROJEKT\matrixLib\clean: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean
 PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all:
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\depend
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=31,32 "Built target matrixLib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=33,34 "Built target matrixLib"
 .PHONY : PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
 
 # Build rule for subdir invocation for target.
@@ -274,7 +292,7 @@ PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\clean:
 PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all: PROJEKT\matrixLib\CMakeFiles\matrixLib.dir\all
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\depend
 	$(MAKE) $(MAKESILENT) -f PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=28,29,30 "Built target matrixApp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=30,31,32 "Built target matrixApp"
 .PHONY : PROJEKT\matrixApp\CMakeFiles\matrixApp.dir\all
 
 # Build rule for subdir invocation for target.
@@ -526,6 +544,32 @@ main8: LAB8\CMakeFiles\main8.dir\rule
 LAB8\CMakeFiles\main8.dir\clean:
 	$(MAKE) $(MAKESILENT) -f LAB8\CMakeFiles\main8.dir\build.make /nologo -$(MAKEFLAGS) LAB8\CMakeFiles\main8.dir\clean
 .PHONY : LAB8\CMakeFiles\main8.dir\clean
+
+#=============================================================================
+# Target rules for target LAB9/CMakeFiles/main9.dir
+
+# All Build rule for target.
+LAB9\CMakeFiles\main9.dir\all:
+	$(MAKE) $(MAKESILENT) -f LAB9\CMakeFiles\main9.dir\build.make /nologo -$(MAKEFLAGS) LAB9\CMakeFiles\main9.dir\depend
+	$(MAKE) $(MAKESILENT) -f LAB9\CMakeFiles\main9.dir\build.make /nologo -$(MAKEFLAGS) LAB9\CMakeFiles\main9.dir\build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles --progress-num=28,29 "Built target main9"
+.PHONY : LAB9\CMakeFiles\main9.dir\all
+
+# Build rule for subdir invocation for target.
+LAB9\CMakeFiles\main9.dir\rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) LAB9\CMakeFiles\main9.dir\all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Kacper\CLionProjects\JiPP2\cmake-build-debug\CMakeFiles 0
+.PHONY : LAB9\CMakeFiles\main9.dir\rule
+
+# Convenience name for target.
+main9: LAB9\CMakeFiles\main9.dir\rule
+.PHONY : main9
+
+# clean rule for target.
+LAB9\CMakeFiles\main9.dir\clean:
+	$(MAKE) $(MAKESILENT) -f LAB9\CMakeFiles\main9.dir\build.make /nologo -$(MAKEFLAGS) LAB9\CMakeFiles\main9.dir\clean
+.PHONY : LAB9\CMakeFiles\main9.dir\clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

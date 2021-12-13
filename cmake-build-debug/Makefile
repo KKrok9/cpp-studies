@@ -248,6 +248,19 @@ main8\fast:
 	$(MAKE) $(MAKESILENT) -f LAB8\CMakeFiles\main8.dir\build.make /nologo -$(MAKEFLAGS) LAB8\CMakeFiles\main8.dir\build
 .PHONY : main8\fast
 
+#=============================================================================
+# Target rules for targets named main9
+
+# Build rule for target.
+main9: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) main9
+.PHONY : main9
+
+# fast build rule for target.
+main9\fast:
+	$(MAKE) $(MAKESILENT) -f LAB9\CMakeFiles\main9.dir\build.make /nologo -$(MAKEFLAGS) LAB9\CMakeFiles\main9.dir\build
+.PHONY : main9\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -265,6 +278,7 @@ help:
 	@echo ... main7
 	@echo ... main7.1
 	@echo ... main8
+	@echo ... main9
 	@echo ... matrixApp
 	@echo ... matrixLib
 .PHONY : help
