@@ -14,7 +14,9 @@
       <config projectName="JIPP2" targetName="main7.1" />
       <config projectName="JIPP2" targetName="main5" />
       <config projectName="JIPP2" targetName="main2" />
+      <config projectName="JIPP2" targetName="test" />
       <config projectName="JIPP2" targetName="main3" />
+      <config projectName="JIPP2" targetName="PROJEKT2" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -23,11 +25,16 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LAB9/CMakeLists.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB9/src/main.cpp" afterDir="false" />
+    <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="`2 commit`">
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/include/App.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/src/App.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/src/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TEST/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJEKT/matrixApp/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PROJEKT/matrixApp/src/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
@@ -95,7 +102,7 @@
       <recent name="C:\Users\Kacper\CLionProjects\JiPP2\LAB7\DZIEDZICZENIE" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.main9">
+  <component name="RunManager" selected="CMake Application.matrixApp">
     <configuration type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="add 12 100" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -276,6 +283,41 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PROJEKT2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="PROJEKT2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="PROJEKT2">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="friendly" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="friendly" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="friendly">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -336,6 +378,11 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration name="test" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="test" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="test">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="CMake Application.main2" />
       <item itemvalue="CMake Application.main3" />
@@ -347,8 +394,10 @@
       <item itemvalue="CMake Application.main7.1" />
       <item itemvalue="CMake Application.main8" />
       <item itemvalue="CMake Application.main9" />
+      <item itemvalue="CMake Application.PROJEKT2" />
       <item itemvalue="CMake Application.matrixApp" />
       <item itemvalue="CMake Application.matrixLib" />
+      <item itemvalue="CMake Application.test" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -413,13 +462,17 @@
       <workItem from="1639067328162" duration="2499000" />
       <workItem from="1639080125465" duration="4108000" />
       <workItem from="1639133147717" duration="87000" />
-    </task>
-    <task id="LOCAL-00006" summary="2 commit">
-      <created>1634136688454</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1634136688454</updated>
+      <workItem from="1639403428681" duration="31000" />
+      <workItem from="1639416993267" duration="22000" />
+      <workItem from="1640619331190" duration="1365000" />
+      <workItem from="1640696388197" duration="3747000" />
+      <workItem from="1640713762083" duration="4959000" />
+      <workItem from="1640859021102" duration="3531000" />
+      <workItem from="1640888645241" duration="4593000" />
+      <workItem from="1641069229790" duration="1636000" />
+      <workItem from="1641202373303" duration="2395000" />
+      <workItem from="1641239502029" duration="2180000" />
+      <workItem from="1641284934027" duration="1924000" />
     </task>
     <task id="LOCAL-00007" summary="2 commit">
       <created>1634732954858</created>
@@ -757,7 +810,14 @@
       <option name="project" value="LOCAL" />
       <updated>1639070146760</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="2 commit">
+      <created>1639403443813</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1639403443813</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

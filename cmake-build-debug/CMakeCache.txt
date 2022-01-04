@@ -262,6 +262,12 @@ LAB9_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/LAB
 LAB9_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/LAB9
 
 //Value Computed by CMake
+PROJEKT2_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT2
+
+//Value Computed by CMake
+PROJEKT2_SOURCE_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/PROJEKT2
+
+//Value Computed by CMake
 PROJEKT_BINARY_DIR:STATIC=C:/Users/Kacper/CLionProjects/JiPP2/cmake-build-debug/PROJEKT
 
 //Value Computed by CMake
@@ -490,7 +496,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=12
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=14
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib

@@ -132,6 +132,19 @@ matrixApp\fast:
 .PHONY : matrixApp\fast
 
 #=============================================================================
+# Target rules for targets named PROJEKT2
+
+# Build rule for target.
+PROJEKT2: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) PROJEKT2
+.PHONY : PROJEKT2
+
+# fast build rule for target.
+PROJEKT2\fast:
+	$(MAKE) $(MAKESILENT) -f PROJEKT2\CMakeFiles\PROJEKT2.dir\build.make /nologo -$(MAKEFLAGS) PROJEKT2\CMakeFiles\PROJEKT2.dir\build
+.PHONY : PROJEKT2\fast
+
+#=============================================================================
 # Target rules for targets named main2
 
 # Build rule for target.
@@ -261,6 +274,19 @@ main9\fast:
 	$(MAKE) $(MAKESILENT) -f LAB9\CMakeFiles\main9.dir\build.make /nologo -$(MAKEFLAGS) LAB9\CMakeFiles\main9.dir\build
 .PHONY : main9\fast
 
+#=============================================================================
+# Target rules for targets named test
+
+# Build rule for target.
+test: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 /nologo -$(MAKEFLAGS) test
+.PHONY : test
+
+# fast build rule for target.
+test\fast:
+	$(MAKE) $(MAKESILENT) -f TEST\CMakeFiles\test.dir\build.make /nologo -$(MAKEFLAGS) TEST\CMakeFiles\test.dir\build
+.PHONY : test\fast
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -269,6 +295,7 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... PROJEKT2
 	@echo ... friendly
 	@echo ... main2
 	@echo ... main3
@@ -281,6 +308,7 @@ help:
 	@echo ... main9
 	@echo ... matrixApp
 	@echo ... matrixLib
+	@echo ... test
 .PHONY : help
 
 

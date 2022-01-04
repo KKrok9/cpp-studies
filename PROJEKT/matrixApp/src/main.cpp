@@ -145,9 +145,9 @@ int main()
                 cout << "Ktory wiersz macierzy 1 chcesz posortowac?" << endl;
                 cin >> row;
                 for (int i = 0; i < columns1; i++) {
-                    arr1[i] = tab1[row - 1][i];// przepisywanie wartosci do arr
+                    arr1[i] = tab11[row - 1][i];// przepisywanie wartosci do arr
                 }
-                sortRow(arr2, columns1);
+                sortRow(arr1, columns1);
                 for (int i = 0; i < columns1; i++) {
                     cout << arr1[i] << endl;
                 }
@@ -214,11 +214,11 @@ int main()
                 cout << "Ktory wiersz macierzy 1 chcesz posortowac?" << endl;
                 cin >> row;
                 for (int i = 0; i < columns1; i++) {
-                    arr1[i] = tab1[row - 1][i];// przepisywanie wartosci do arr
+                    arr2[i] = tab1[row - 1][i];// przepisywanie wartosci do arr
                 }
-                sortRow(arr1, columns1);
+                sortRow(arr2, columns1);
                 for (int i = 0; i < columns1; i++) {
-                    cout << arr1[i] << endl;
+                    cout << arr2[i] << endl;
                 }
                 break;
 
