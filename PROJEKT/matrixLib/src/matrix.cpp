@@ -151,7 +151,10 @@ double multiplyByScalar(double **tab1,int rows1, int columns1,double *scalar)
 {
     cout << "Podaj skalar :"<< endl;
     cin >> *scalar;
-
+    if(*scalar==1)
+    {
+        return **tab1;
+    }
     for (int i = 0; i < rows1; i++) {
 
         for (int j = 0; j < columns1; j++) {
