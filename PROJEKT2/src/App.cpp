@@ -62,15 +62,45 @@ void Recipes::set_method(string method) {
     method_vector.push_back(method);
 }
 
-void Recipes::show_recipe() {
-    int przepis;
-    cout << "Ktory przepis chcesz wybrac? " << endl;
-    cin >> przepis;
-    przepis--;
-    cout << "Fantastyczny wybor !" <<endl;
+void Recipes::show_recipe(int przepis) {
+
+
     cout << titles_vector.at(przepis)<<endl;
     cout << "Czas wykonania: " <<time_vector.at(przepis)<<" minut"<<endl;
     cout << "Kalorie: "<<calories_vector.at(przepis)<<"kcal"<<endl;
     cout << "Składniki: " <<ingredients_vector.at(przepis)<<endl;
     cout << "Sposob przygotowania: "<<method_vector.at(przepis)<<endl;
+}
+
+void Recipes::edit_recipe(int przepis) {
+
+
+    cout << "Który segment chcesz edytować?" << endl;
+    int segment;
+    cout << "1.Tytul\n2.Czas wykonania\n3.Ilosc kalorii \n4.Skladniki\n5.Sposob wykonania"<<endl;
+    cin >> segment ;
+    switch(segment)
+    {
+            case 1:
+            set_title("");
+            break;
+
+            case 2:
+            set_time(0);
+            break;
+
+            case 3:
+            set_calories(0);
+            break;
+
+            case 4:
+            set_ingredients("");
+            break;
+
+            case 5:
+            set_method("");
+            break;
+
+    }
+
 }

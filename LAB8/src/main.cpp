@@ -1,23 +1,35 @@
 #include <iostream>
 #include <string>
+#include <windows.h>
 #include "../include/Note.h"
-#include "../include/TextNote.h"
+
 
 using namespace std;
 
 
-int main()
-{
+int main() {
+    Note notatki;
+    int choose;
+do{
+    cout << "NOTATNIK" << endl;
+    cout << "co chcesz zrobic?" << endl;
+    cout << "1. dodaj notatke \n2. Wyswietl notatke \n3. Edytuj notatke\n0.Wyjdz" << endl;
+    cin >> choose;
+    switch (choose) {
 
-    TextNote tn;
+        case 1:
+            notatki.setTitle("");
 
-                tn.setTitle();
-                tn.setContent();
+            notatki.setContent("");
+            break;
 
-
-                cout << "Tytul notatki to  "<< tn.getTitle() << endl;
-                cout << "tresc notatki jest nastepujaca : \n " << tn.getContent() << endl;
-// niedokonczone zadanie bo nie mam pomyslu na resze xdd
-
+        case 2:
+            notatki.getNote();
+            break;
+        case 3:
+            notatki.editNote();
+            break;
+    }
+}while(choose!=0);
     return 0;
 }

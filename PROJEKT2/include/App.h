@@ -31,6 +31,8 @@ protected:
     int time; // czas przygotowania
     string method ; // sposób przygotowania
 
+
+
     vector<string>titles_vector;
     vector<int>calories_vector;
     vector<string>ingredients_vector;
@@ -38,6 +40,7 @@ protected:
     vector<string>method_vector;
 
 public:
+
     void set_title(string title);
     void show_titles(); // pokazanie wszystkich tytulow w wektorze
 
@@ -49,8 +52,8 @@ public:
 
     void set_method(string method);
 
-    void show_recipe();
-
+    void show_recipe(int przepis);
+    void edit_recipe(int przepis);
 };
 
 #endif
