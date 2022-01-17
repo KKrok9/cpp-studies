@@ -17,7 +17,7 @@ string Note ::getTitle(string title)
 {
 
  return this -> title;
-}
+}//
 
 string Note ::setContent(string content)
 {
