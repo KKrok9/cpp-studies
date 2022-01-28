@@ -25,14 +25,25 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="X">
-      <change afterPath="$PROJECT_DIR$/LAB9/include/ListaUtworow.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB9/include/Utwor.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB9/src/ListaUtworow.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB9/src/Utwor.cpp" afterDir="false" />
+    <list default="true" id="a868c499-fce3-4944-8270-99e0dd512640" name="Changes" comment="LAB8">
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/database/przepisy.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/include/Calories.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/include/Components.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/include/Methods.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/include/Times.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/include/Titles.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/src/Calories.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/src/Components.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/src/Methods.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/src/Times.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PROJEKT2/src/Titles.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB9/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/LAB9/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LAB9/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/LAB9/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJEKT2/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PROJEKT2/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJEKT2/include/App.h" beforeDir="false" afterPath="$PROJECT_DIR$/PROJEKT2/include/App.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJEKT2/src/App.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PROJEKT2/src/App.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PROJEKT2/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/PROJEKT2/src/main.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TEST/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TEST/main.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
@@ -63,6 +74,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1zOfVTKfluWX8nyuSzfR1d7jmb1" />
   <component name="ProjectLevelVcsManager">
@@ -95,7 +109,7 @@
       <recent name="C:\Users\Kacper\CLionProjects\JiPP2\LAB7\DZIEDZICZENIE" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.main9">
+  <component name="RunManager" selected="CMake Application.PROJEKT2">
     <configuration type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="add 12 100" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Project" RUN_TARGET_NAME="main" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -321,12 +335,42 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PROJEKT2" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="PROJEKT2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="PROJEKT2">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PROJEKT2" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="29 stycznia" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="JIPP2" TARGET_NAME="PROJEKT2" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="JIPP2" RUN_TARGET_NAME="PROJEKT2">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -498,28 +542,15 @@
       <workItem from="1642320869951" duration="2517000" />
       <workItem from="1642329168622" duration="4000" />
       <workItem from="1642438870532" duration="2997000" />
-      <workItem from="1642444771097" duration="2000" />
-    </task>
-    <task id="LOCAL-00010" summary="2 commit">
-      <created>1634740671572</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1634740671572</updated>
-    </task>
-    <task id="LOCAL-00011" summary="2 commit">
-      <created>1634746799610</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1634746799610</updated>
-    </task>
-    <task id="LOCAL-00012" summary="2 commit">
-      <created>1634749172764</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1634749172764</updated>
+      <workItem from="1642444771097" duration="991000" />
+      <workItem from="1642770737788" duration="3012000" />
+      <workItem from="1643220283852" duration="4391000" />
+      <workItem from="1643290933212" duration="10897000" />
+      <workItem from="1643308442742" duration="7443000" />
+      <workItem from="1643375200989" duration="3526000" />
+      <workItem from="1643387294687" duration="2013000" />
+      <workItem from="1643389856679" duration="669000" />
+      <workItem from="1643393150159" duration="9538000" />
     </task>
     <task id="LOCAL-00013" summary="2 commit">
       <created>1634749327877</created>
@@ -843,7 +874,28 @@
       <option name="project" value="LOCAL" />
       <updated>1642323332308</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="LAB9">
+      <created>1642444831317</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1642444831317</updated>
+    </task>
+    <task id="LOCAL-00060" summary="LAB8">
+      <created>1642444892817</created>
+      <option name="number" value="00060" />
+      <option name="presentableId" value="LOCAL-00060" />
+      <option name="project" value="LOCAL" />
+      <updated>1642444892817</updated>
+    </task>
+    <task id="LOCAL-00061" summary="LAB8">
+      <created>1642444917467</created>
+      <option name="number" value="00061" />
+      <option name="presentableId" value="LOCAL-00061" />
+      <option name="project" value="LOCAL" />
+      <updated>1642444917467</updated>
+    </task>
+    <option name="localTasksCounter" value="62" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -866,6 +918,8 @@
     <MESSAGE value="2 commit" />
     <MESSAGE value="`2 commit`" />
     <MESSAGE value="X" />
-    <option name="LAST_COMMIT_MESSAGE" value="X" />
+    <MESSAGE value="LAB9" />
+    <MESSAGE value="LAB8" />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB8" />
   </component>
 </project>
